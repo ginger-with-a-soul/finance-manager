@@ -1,0 +1,41 @@
+# grab your service token from google to be able to use its API for google sheets
+service: finance-manager.json
+# Folder id is the last part of the URL when you're in google drive folder you want to share
+folder_id: 1-peqxO3sJP_-h3J5XxoalUSOPcw9V1fg
+worksheet_names: ['Summary', 'Transactions', 'Statistics']
+# How you named your year summary sheet
+year_summary_name: '00 Year Summary 2023'
+year_summary_worksheet_names: ['Statistics']
+currency_suffix: 'din'
+
+# Important cell locations in month sheets, by worksheets:
+# Summary worksheet:
+starting_balance: 'L8'
+actual_income: 'I22'
+actual_expenses: 'C22'
+
+# Statistics worksheet:
+most_expensive_category_description: 'D3'
+most_expensive_category_value: 'G3'
+most_expensive_item_description: 'D7'
+most_expensive_item_value: 'G7'
+savings_goal_remaining: 'D11'
+savings_goal_amount: 'D15'
+number_of_purchases: 'D19'
+most_money_spent_in_one_day_date: 'D23'
+most_money_spent_in_one_day_amount: 'G23'
+most_number_of_purchases_in_one_day_date: 'D27'
+most_number_of_purchases_in_one_day_amount: 'G27'
+
+# Important cell locations in year summary sheet, by worksheets:
+money_earned: 'D5'
+money_spent: 'D9'
+money_saved: 'D13'
+
+most_expensive_item: 'H21'
+most_expensive_category: 'H41'
+
+top1_most_spent: 'H61'
+top1_most_earned: 'H75'
+top1_least_spent: 'H89'
+top1_most_saved: 'H103'
